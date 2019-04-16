@@ -34,6 +34,8 @@ li, ol, ul {
   display: inline-block;
 }
 
+
+
 h2 {
   margin: 0;
   text-transform: uppercase;
@@ -54,6 +56,7 @@ button {
   -o-transition: var(--transition);
   transition: var(--transition);
 }
+
 
 .main-container {
   display: flex;
@@ -88,13 +91,19 @@ button {
   border-radius: 5px;
 }
 
+
+
+
 .space {
   width: 15px;
 }
 
+
+
 .show {
   color: #000;
   background-color: #76CE82;
+  transition: all .8s ease-in-out;
 }
 
 /* Keyboard */
@@ -104,12 +113,18 @@ button {
   justify-content: center;
 }
 
+
+
 .chosen {
   background: var(--color-neutral);
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
+
 }
+
+
+
 
 .btn__reset {
   padding: 8px;
@@ -117,7 +132,13 @@ button {
   background: #FFFFFF;
   border-radius: 5px;
   font-size: var(--font-size-medium);
+  
 }
+
+.btn__reset:hover {
+  cursor: pointer;
+}
+
 
 /* Overlay */
 

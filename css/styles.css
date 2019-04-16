@@ -137,6 +137,9 @@ button {
 
 .btn__reset:hover {
   cursor: pointer;
+  background-color: grey;
+  color:#FFFFFF;
+
 }
 
 
